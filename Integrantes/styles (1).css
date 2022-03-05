@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+
+*{
+    font-family: 'Roboto', sans-serif;
+    color:hsl(290, 85%, 68%)
+    background-color: pink;
+}
+*body{
+    margin:0;
+;
+    
+}
+
+.hero-image{
+    background-color: rgb(234, 177, 236);
+    background-image: url(https://www.theclinic.cl/wp-content/uploads/2013/11/Chicas_Superpoderosas.jpg);
+    height:400px;
+    width:100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+.hero-text{
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    right: 48%; 
+}    
+.article-header{
+    
+    background-image: url(https://p0.itc.cn/images01/20210930/90203fe9efe848ec89f565f63d65385f.jpeg);
+    height:auto;
+    padding: auto;
+    margin: 0;
+    
+}
+.article{
+    background-color: rgb(181, 75, 214);
+    color: rgb(0, 0, 0);
+    text-align: left;
+
+    padding-right:0;
+    height: 60px;
+    width: auto;
+}
+.text-article{
+    text-decoration-color: rgb(224, 70, 70);
+}
